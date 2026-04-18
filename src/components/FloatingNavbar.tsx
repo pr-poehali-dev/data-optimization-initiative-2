@@ -16,7 +16,7 @@ export function FloatingNavbar() {
           <button onClick={() => scrollToSection("home")} className="cursor-pointer">
             <div className="flex items-center gap-2 text-white [text-shadow:_0_2px_8px_rgb(0_0_0_/_40%)]">
               <span className="text-2xl">🐐</span>
-              <span className="font-semibold text-lg font-open-sans-custom tracking-tight">Nastya</span>
+              <span className="font-semibold text-lg font-open-sans-custom tracking-tight">Dessite</span>
             </div>
           </button>
 
