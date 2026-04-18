@@ -163,7 +163,7 @@ export default function Index() {
 
               <p className="mb-8 mx-auto max-w-2xl text-pretty leading-relaxed text-pink-100 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-thin font-open-sans-custom tracking-wide text-xl">
                 творческий человек, художник и создатель ОС{" "}
-                <span className="font-serif italic text-pink-300">Десскич</span> — козочки с добрым сердцем
+                <span className="font-serif italic text-pink-300">Десскич</span> - козочки с добрым сердцем
               </p>
 
               <div className="flex justify-center gap-4">

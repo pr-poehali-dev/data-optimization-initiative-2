@@ -42,7 +42,7 @@ function Feature() {
                 <div className="flex flex-col gap-1">
                   <p className="text-white font-open-sans-custom">Дата рождения</p>
                   <p className="text-pink-200 text-sm font-open-sans-custom">
-                    22 февраля 2012 — юный, но уже настоящий художник!
+                    22 февраля 2012 - юный, но уже настоящий художник!
                   </p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ function Feature() {
                 <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
                   <p className="text-white font-open-sans-custom">Telegram</p>
-                  <p className="text-pink-200 text-sm font-open-sans-custom">Канал @Cool_Desski4 — арты и обновления.</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">Канал @Cool_Desski4 - арты и обновления.</p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
