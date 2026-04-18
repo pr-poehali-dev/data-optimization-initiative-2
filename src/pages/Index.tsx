@@ -158,12 +158,12 @@ export default function Index() {
             <div className="text-center px-0 leading-5">
               <h1 className="mb-8 text-balance text-5xl tracking-tight text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)] md:text-6xl lg:text-8xl">
                 <span className="font-open-sans-custom not-italic">Привет,</span>{" "}
-                <span className="font-serif italic text-pink-300">я Настя.</span>
+                <span className="font-serif italic text-sky-300">я Настя.</span>
               </h1>
 
-              <p className="mb-8 mx-auto max-w-2xl text-pretty leading-relaxed text-pink-100 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-thin font-open-sans-custom tracking-wide text-xl">
+              <p className="mb-8 mx-auto max-w-2xl text-pretty leading-relaxed text-sky-100 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-thin font-open-sans-custom tracking-wide text-xl">
                 творческий человек, художник и создатель ОС{" "}
-                <span className="font-serif italic text-pink-300">Десскич</span> - козочки с добрым сердцем
+                <span className="font-serif italic text-sky-300">Десскич</span> - козочки с добрым сердцем
               </p>
 
               <div className="flex justify-center gap-4">
@@ -200,7 +200,7 @@ export default function Index() {
               <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)] font-open-sans-custom">
                 Мой ОС — Десскич 🐐
               </h1>
-              <p className="text-pink-200 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
+              <p className="text-sky-200 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
                 Десскич — мой оригинальный персонаж, козочка в нежном розово-зелёном образе.
                 История ещё пишется, но образ уже живёт!
               </p>
@@ -230,7 +230,7 @@ export default function Index() {
               <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)] font-open-sans-custom">
                 Мои арты ✏️
               </h1>
-              <p className="text-pink-200 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
+              <p className="text-sky-200 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
                 Немного о себе и своём творчестве — от сердца к бумаге.
               </p>
             </div>
@@ -271,7 +271,7 @@ export default function Index() {
               ]}
             >
               <div className="w-full space-y-4 flex flex-col justify-center h-full">
-                <p className="text-pink-200 text-sm font-open-sans-custom [text-shadow:_0_2px_6px_rgb(0_0_0_/_40%)] text-center">
+                <p className="text-sky-200 text-sm font-open-sans-custom [text-shadow:_0_2px_6px_rgb(0_0_0_/_40%)] text-center">
                   Найди меня здесь 🐐
                 </p>
                 <a
@@ -280,7 +280,7 @@ export default function Index() {
                   rel="noopener noreferrer"
                   className="w-full"
                 >
-                  <Button className="w-full bg-pink-300 text-pink-950 hover:bg-pink-200 font-open-sans-custom gap-2">
+                  <Button className="w-full bg-sky-300 text-sky-950 hover:bg-sky-200 font-open-sans-custom gap-2">
                     <Icon name="Send" size={16} />
                     Telegram — @Cool_Desski4
                   </Button>
@@ -293,14 +293,14 @@ export default function Index() {
                 >
                   <Button
                     variant="outline"
-                    className="w-full border-pink-300/30 text-pink-200 hover:bg-pink-300/10 font-open-sans-custom gap-2 bg-transparent"
+                    className="w-full border-sky-300/30 text-sky-200 hover:bg-sky-300/10 font-open-sans-custom gap-2 bg-transparent"
                   >
                     <Icon name="Music" size={16} />
                     TikTok — @d3sski4_official
                   </Button>
                 </a>
                 <div className="pt-4 text-center">
-                  <p className="text-pink-300/60 text-xs font-open-sans-custom">
+                  <p className="text-sky-300/60 text-xs font-open-sans-custom">
                     Рождена 22.02.2012 · Художник · ОС Десскич 🐐
                   </p>
                 </div>

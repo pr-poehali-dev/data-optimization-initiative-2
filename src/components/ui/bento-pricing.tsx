@@ -19,7 +19,7 @@ function ArtModal({ onClose }: { onClose: () => void }) {
       >
         <button
           onClick={onClose}
-          className="absolute -top-3 -right-3 z-10 rounded-full bg-pink-300 p-1 text-pink-950 hover:bg-pink-200"
+          className="absolute -top-3 -right-3 z-10 rounded-full bg-sky-300 p-1 text-sky-950 hover:bg-sky-200"
         >
           <X className="h-4 w-4" />
         </button>
@@ -41,6 +41,7 @@ type PricingCardProps = {
   cta?: string
   className?: string
   showArt?: boolean
+  href?: string
 }
 
 function PricingCard({
@@ -51,8 +52,14 @@ function PricingCard({
   cta = "Подписаться",
   className,
   showArt = false,
+  href,
 }: PricingCardProps) {
   const [open, setOpen] = useState(false)
+
+  const handleClick = () => {
+    if (showArt) setOpen(true)
+    else if (href) window.open(href, "_blank", "noopener,noreferrer")
+  }
 
   return (
     <>
@@ -74,7 +81,7 @@ function PricingCard({
               variant="outline"
               size="sm"
               className="bg-white/5 text-white border-white/20 hover:bg-white/10 font-open-sans-custom text-xs"
-              onClick={showArt ? () => setOpen(true) : undefined}
+              onClick={handleClick}
             >
               {cta}
             </Button>
@@ -108,31 +115,31 @@ export function BentoPricing() {
     <div className="grid grid-cols-1 gap-1.5 md:grid-cols-2 lg:grid-cols-8">
       <div
         className={cn(
-          "bg-pink-900/10 border-pink-300/20 relative w-full overflow-hidden rounded-md border-2",
+          "bg-sky-900/10 border-sky-300/20 relative w-full overflow-hidden rounded-md border-2",
           "backdrop-blur-sm",
           "lg:col-span-5",
         )}
       >
         <DotPattern width={5} height={5} />
         <div className="pointer-events-none absolute top-0 left-1/2 -mt-2 -ml-20 h-full w-full [mask-image:linear-gradient(white,transparent)]">
-          <div className="from-pink-500/10 to-pink-200/5 absolute inset-0 bg-gradient-to-r [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]">
+          <div className="from-sky-500/10 to-sky-200/5 absolute inset-0 bg-gradient-to-r [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]">
             <div
               aria-hidden="true"
               className={cn(
                 "absolute inset-0 size-full mix-blend-overlay",
-                "bg-[linear-gradient(to_right,rgba(255,192,203,0.1)_1px,transparent_1px)]",
+                "bg-[linear-gradient(to_right,rgba(186,230,253,0.1)_1px,transparent_1px)]",
                 "bg-[size:24px]",
               )}
             />
           </div>
         </div>
         <div className="flex items-center gap-3 p-3">
-          <Badge variant="secondary" className="bg-pink-300/20 text-pink-200 border-pink-300/30 font-open-sans-custom text-xs">
+          <Badge variant="secondary" className="bg-sky-300/20 text-sky-200 border-sky-300/30 font-open-sans-custom text-xs">
             ВНЕШНОСТЬ
           </Badge>
           <Badge
             variant="outline"
-            className="hidden lg:flex bg-pink-300/10 text-pink-200 border-pink-300/20 font-open-sans-custom text-xs"
+            className="hidden lg:flex bg-sky-300/10 text-sky-200 border-sky-300/20 font-open-sans-custom text-xs"
           >
             <SparklesIcon className="me-1 size-3" /> Главный образ
           </Badge>
@@ -143,7 +150,7 @@ export function BentoPricing() {
               Десскич 🐐
             </span>
           </div>
-          <ul className="text-pink-200 grid gap-2 text-xs lg:w-[70%] font-open-sans-custom">
+          <ul className="text-sky-200 grid gap-2 text-xs lg:w-[70%] font-open-sans-custom">
             {[
               "Козочка с рожками и нежным характером",
               "Розово-зелёная цветовая палитра образа",
@@ -151,7 +158,7 @@ export function BentoPricing() {
               "Длинные вьющиеся волосы с хвостиками",
             ].map((f, i) => (
               <li key={i} className="flex items-center gap-2">
-                <Check className="w-[1.05rem] h-[1.05rem] text-pink-300 flex-shrink-0" strokeWidth={3} />
+                <Check className="w-[1.05rem] h-[1.05rem] text-sky-300 flex-shrink-0" strokeWidth={3} />
                 <span className="leading-relaxed">{f}</span>
               </li>
             ))}
@@ -171,6 +178,7 @@ export function BentoPricing() {
         ]}
         className="lg:col-span-3"
         cta="Узнать больше"
+        href="https://t.me/cool_desski4"
       />
 
       <PricingCard
@@ -210,6 +218,7 @@ export function BentoPricing() {
         ]}
         className="lg:col-span-8"
         cta="Подписаться"
+        href="https://t.me/cool_desski4"
       />
     </div>
   )
