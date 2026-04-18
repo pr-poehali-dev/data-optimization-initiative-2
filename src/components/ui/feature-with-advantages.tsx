@@ -42,7 +42,7 @@ function Feature() {
                 <div className="flex flex-col gap-1">
                   <p className="text-white font-open-sans-custom">Дата рождения</p>
                   <p className="text-pink-200 text-sm font-open-sans-custom">
-                    22 февраля 2012 - юный, но уже настоящий художник!
+                    22 февраля 2012
                   </p>
                 </div>
               </div>
