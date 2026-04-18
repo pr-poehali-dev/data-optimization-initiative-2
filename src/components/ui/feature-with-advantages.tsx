@@ -65,7 +65,7 @@ function Feature() {
               <div className="flex flex-row gap-6 items-start">
                 <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Мой ОС — Лайм</p>
+                  <p className="text-white font-open-sans-custom">Мой ОС — Десскич</p>
                   <p className="text-pink-200 text-sm font-open-sans-custom">
                     Оригинальный персонаж: козочка с нежным характером.
                   </p>

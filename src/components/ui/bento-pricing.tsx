@@ -103,7 +103,7 @@ export function BentoPricing() {
         <div className="flex flex-col p-3 lg:flex-row">
           <div className="pb-2 lg:w-[30%]">
             <span className="font-mono text-3xl font-semibold tracking-tight text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)]">
-              Лайм 🐐
+              Десскич 🐐
             </span>
           </div>
           <ul className="text-pink-200 grid gap-2 text-xs lg:w-[70%] font-open-sans-custom">
@@ -124,7 +124,7 @@ export function BentoPricing() {
 
       <PricingCard
         titleBadge="ХАРАКТЕР"
-        priceLabel="Лайм"
+        priceLabel="Десскич"
         priceSuffix=""
         features={[
           "Нежная и добрая козочка",
@@ -163,7 +163,7 @@ export function BentoPricing() {
         priceLabel="Скоро"
         priceSuffix=""
         features={[
-          "Настя работает над историей Лайм",
+          "Настя работает над историей Десскич",
           "Следи за обновлениями в Telegram",
           "Новые арты появляются регулярно",
           "Поддержи в комментариях!",

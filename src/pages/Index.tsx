@@ -163,7 +163,7 @@ export default function Index() {
 
               <p className="mb-8 mx-auto max-w-2xl text-pretty leading-relaxed text-pink-100 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-thin font-open-sans-custom tracking-wide text-xl">
                 творческий человек, художник и создатель ОС{" "}
-                <span className="font-serif italic text-pink-300">Лайм</span> — козочки с добрым сердцем
+                <span className="font-serif italic text-pink-300">Десскич</span> — козочки с добрым сердцем
               </p>
 
               <div className="flex justify-center gap-4">
@@ -198,10 +198,10 @@ export default function Index() {
           <div className="relative z-10 mx-auto w-full max-w-5xl">
             <div className="mx-auto mb-10 max-w-2xl text-center">
               <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)] font-open-sans-custom">
-                Мой ОС — Лайм 🐐
+                Мой ОС — Десскич 🐐
               </h1>
               <p className="text-pink-200 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
-                Лайм — мой оригинальный персонаж, козочка в нежном розово-зелёном образе.
+                Десскич — мой оригинальный персонаж, козочка в нежном розово-зелёном образе.
                 История ещё пишется, но образ уже живёт!
               </p>
             </div>
@@ -256,7 +256,7 @@ export default function Index() {
           <div className="relative z-10 mx-auto w-full max-w-5xl mt-[5vh]">
             <ContactCard
               title="Мои соцсети 💌"
-              description="Подписывайся на мои каналы — там я делюсь артами, обновлениями и всем, что связано с Лайм и другими персонажами!"
+              description="Подписывайся на мои каналы — там я делюсь артами, обновлениями и всем, что связано с Десскич и другими персонажами!"
               contactInfo={[
                 {
                   icon: Send,
@@ -301,7 +301,7 @@ export default function Index() {
                 </a>
                 <div className="pt-4 text-center">
                   <p className="text-pink-300/60 text-xs font-open-sans-custom">
-                    Рождена 22.02.2012 · Художник · ОС Лайм 🐐
+                    Рождена 22.02.2012 · Художник · ОС Десскич 🐐
                   </p>
                 </div>
               </div>
