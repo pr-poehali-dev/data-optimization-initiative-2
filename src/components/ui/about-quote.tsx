@@ -16,10 +16,10 @@ export function AboutQuote() {
 
           <div className="space-y-4 md:space-y-6">
             <p className="text-base md:text-xl lg:text-2xl xl:text-3xl text-white/90 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-open-sans-custom leading-relaxed">
-              В PromptCraft мы верим, что создание впечатляющих цифровых продуктов должно быть доступно каждому. Наша ИИ-платформа превращает ваши идеи в готовые к продакшену интерфейсы за считанные минуты.
+              Я Настя — творческий человек, который рисует арты и придумывает оригинальных персонажей. Мой любимый ОС — козочка <span className="text-pink-300 font-serif italic">Лайм</span>, образ которой я создаю с любовью к деталям.
             </p>
             <p className="text-base md:text-xl lg:text-2xl xl:text-3xl text-white/90 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-open-sans-custom leading-relaxed">
-              Дизайнер, исследующий новые концепции, разработчик, ускоряющий свой процесс, или предприниматель, воплощающий видение в жизнь — PromptCraft станет вашим творческим партнером в эпоху ИИ.
+              Рисование для меня — это способ выразить то, что сложно сказать словами. Каждый арт — маленькая история, каждый персонаж — отражение чего-то настоящего.
             </p>
           </div>
         </div>

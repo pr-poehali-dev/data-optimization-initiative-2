@@ -1,4 +1,4 @@
-import { Check } from "lucide-react"
+import { Heart } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 
 function Feature() {
@@ -7,67 +7,67 @@ function Feature() {
       <div className="container mx-auto px-4">
         <div className="flex gap-4 py-20 flex-col items-start lg:py-0">
           <div>
-            <Badge className="bg-white/10 text-white border-white/20 backdrop-blur-sm">Платформа</Badge>
+            <Badge className="bg-pink-300/20 text-pink-200 border-pink-300/30 backdrop-blur-sm">О художнике</Badge>
           </div>
           <div className="flex gap-2 flex-col">
             <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-open-sans-custom text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)]">
-              Ключевые функции
+              Немного обо мне
             </h2>
-            <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-gray-300 font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
-              Откройте мощные возможности, которые делают нашу платформу лучшим выбором для вашего бизнеса.
+            <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-pink-100 font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
+              Я Настя — творческий человек, который любит рисовать арты и придумывать персонажей.
             </p>
           </div>
           <div className="flex gap-10 pt-12 flex-col w-full">
             <div className="grid grid-cols-2 items-start lg:grid-cols-3 gap-10">
               <div className="flex flex-row gap-6 w-full items-start">
-                <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
+                <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Командная работа</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Удобное и эффективное взаимодействие в команде.
+                  <p className="text-white font-open-sans-custom">Художник</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">
+                    Рисую арты в аниме-стиле, создаю оригинальных персонажей.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
-                <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
+                <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Автоматизация</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Мощная и простая автоматизация рабочих процессов.
+                  <p className="text-white font-open-sans-custom">Творческая душа</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">
+                    Люблю придумывать истории и образы для своих персонажей.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
-                <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
+                <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Масштабируемость</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Инфраструктура, растущая вместе с вашими потребностями.
+                  <p className="text-white font-open-sans-custom">Дата рождения</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">
+                    22 февраля 2012 — юный, но уже настоящий художник!
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 w-full items-start">
-                <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
+                <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Безопасность</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">Надежная и комплексная защита данных.</p>
+                  <p className="text-white font-open-sans-custom">Telegram</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">Канал @Cool_Desski4 — арты и обновления.</p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
-                <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
+                <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Код-ревью</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Интуитивный и эффективный обзор кода.
+                  <p className="text-white font-open-sans-custom">TikTok</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">
+                    @d3sski4_official — видео и творческий процесс.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
-                <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
+                <Heart className="w-[1.05rem] h-[1.05rem] mt-2 text-pink-300" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Облачный деплой</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Быстрое и надежное развертывание в облаке.
+                  <p className="text-white font-open-sans-custom">Мой ОС — Лайм</p>
+                  <p className="text-pink-200 text-sm font-open-sans-custom">
+                    Оригинальный персонаж: козочка с нежным характером.
                   </p>
                 </div>
               </div>
